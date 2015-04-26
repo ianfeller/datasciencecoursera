@@ -481,5 +481,5 @@ dfs2<-list(Bamt,Gamt,Bamjt,Bgmt,Bgmjt,Bamf,Bamjf,Bgmf,Bgmjf)
 #Combine All Vars
 cleaned_vars <- join_all(dfs, by=c("Subject_ID","Activity","Axis","Stat"))
 cleaned_vars2 <- join_all(dfs2, by=c("Subject_ID","Activity","Stat"))
-final_tidy_data <- merge(cleaned_vars,cleaned_vars2)
+final_tidy_data <- merge(cleaned_vars,cleaned_vars2,by=c("Subject_ID","Activity","Stat"))
 final_tidy_data<- arrange(cleaned_vars, Subject_ID, Activity)
