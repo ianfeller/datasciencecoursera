@@ -28,21 +28,23 @@ Axis: Is a categorical variable that separates out the X, Y, and Z axes for the 
 Stat: Is a binary categorical variable indicating if the quantitative variable is a mean or a standard deviation.
 The remaining variables are quantitative variables that are averaged by Subject ID and Activity. The axis and and stat variables also determine the information as well. The vraiables can be categorized further into time vs. frequency variables, as well as the type of information provided. The following are the quantitative variables: 
 
-Average_Body_Acceleration_Time;
-Average_Gravity_Acceleration_Time;
-Average_Body_Acceleration_Jerk_Time;
-Average_Body_Gyroscope_Time;
-Average_Body_Gyroscope_Jerk_Time;
-Average_Body_Acceleration_Freq;
-Average_Body_Acceleration_Jerk_Freq;
-Average_Body_Gyroscope_Freq;	
-Average_Angle_Gravity;
-Average_Body_Acceleration_Magnitude_Time;
-Average_Gravity_Acceleration_Magnitude_Time;
-Average_Body_Acceleration_Magnitude_Jerk_Time;
-Average_Body_Gyroscope_Magnitude_Time;
-Average_Body_Gyroscope_Magnitude_Jerk_Time;
-Average_Body_Acceleration_Magnitude_Frequency;
-Average_Body_Acceleration_Magnitude_Jerk_Frequency;
-Average_Body_Gyroscope_Magnitude_Frequency;
-Average_Body_Gyroscope_Magnitude_Jerk_Frequency;
+Average_Body_Acceleration_Time (gravity units "g"/second);
+Average_Gravity_Acceleration_Time (gravity units "g"/second);
+Average_Body_Acceleration_Jerk_Time (gravity units "g"/second);
+Average_Body_Gyroscope_Time (radians/second);
+Average_Body_Gyroscope_Jerk_Time (radians/second);
+Average_Body_Acceleration_Freq (gravity units "g"/hertz);
+Average_Body_Acceleration_Jerk_Freq (gravity units "g"/hertz);
+Average_Body_Gyroscope_Freq (radians/hertz);	
+Average_Angle_Gravity (radians);
+Average_Body_Acceleration_Magnitude_Time (gravity units "g"/second);
+Average_Gravity_Acceleration_Magnitude_Time (gravity units "g"/second);
+Average_Body_Acceleration_Magnitude_Jerk_Time (gravity units "g"/second);
+Average_Body_Gyroscope_Magnitude_Time (radians/second);
+Average_Body_Gyroscope_Magnitude_Jerk_Time (radians/second);
+Average_Body_Acceleration_Magnitude_Frequency (gravity units "g"/hertz);
+Average_Body_Acceleration_Magnitude_Jerk_Frequency (gravity units "g"/hertz);
+Average_Body_Gyroscope_Magnitude_Frequency (radians/hertz); and
+Average_Body_Gyroscope_Magnitude_Jerk_Frequency (radians/hertz).
+
+The quantative variables range from [-1,1].
